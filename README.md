@@ -1,6 +1,6 @@
 #Tim Rourke's General Assembly Portfolio
 
-Welcome to my General Assembly student portfolio. This project represents a collection of work produced while studying in [General Assembly's](http://generalassemb.ly/Chicago) 2nd Web Development Intensive cohort.
+Welcome to my General Assembly student portfolio. This project represents a collection of work produced while studying in [General Assembly's](http://generalassemb.ly/) 2nd-ever Web Development Intensive cohort in Chicago.
 
 ##See Also
 
