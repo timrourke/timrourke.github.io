@@ -1,0 +1,21 @@
+{
+  "name": "timrourke.github.io",
+  "version": "0.0.1",
+  "homepage": "http://timrourke.github.io",
+  "authors": [
+    "Tim Rourke <tim@timrourke.com>"
+  ],
+  "description": "Tim Rourke's General Assembly Portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
