@@ -47,11 +47,11 @@ gulp.task('sass-ie', function () {
 // javascripts
 gulp.task('js', ['bower'], function() {
   return gulp.src(['./js/vendor/vendor.js', './js/global.js'])
-    .pipe(concat('./_site/js/global.build.js'))
+    .pipe(concat('./js-build/global.build.js'))
     .pipe(jshint())
     .pipe(rename('global.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./_site/js/build/'))
+    .pipe(gulp.dest('./js-build/'))
     .pipe(browserSync.stream());
 });
 

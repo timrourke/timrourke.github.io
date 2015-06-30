@@ -4,10 +4,10 @@
     <title>Tim Rourke&#39;s General Assembly Portfolio</title>
     <description>On June 29th, 2015, I embarked on a new adventure. I&#39;ve joined the 2nd-ever Chicago cohort of General Assembly&#39;s Web Development Intensive program.
 </description>
-    <link>http://timrourke.github.io/_site/</link>
-    <atom:link href="http://timrourke.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jun 2015 08:39:35 -0500</pubDate>
-    <lastBuildDate>Tue, 30 Jun 2015 08:39:35 -0500</lastBuildDate>
+    <link>http://timrourke.github.io/</link>
+    <atom:link href="http://timrourke.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 30 Jun 2015 08:48:13 -0500</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2015 08:48:13 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Tue, 30 Jun 2015 00:40:21 -0500</pubDate>
-        <link>http://timrourke.github.io/_site/jekyll/update/2015/06/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://timrourke.github.io/_site/jekyll/update/2015/06/30/welcome-to-jekyll.html</guid>
+        <link>http://timrourke.github.io/jekyll/update/2015/06/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://timrourke.github.io/jekyll/update/2015/06/30/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
