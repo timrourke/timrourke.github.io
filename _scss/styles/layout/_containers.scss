@@ -1,0 +1,53 @@
+//Clean sticky footer
+html, body {
+  height:100%;
+}
+
+main {
+  width:100%;
+  min-height:100%;
+  height:auto !important;
+  height:100%;
+  margin:0 0 -3em 0;
+}
+
+section {
+  padding:2em;
+}
+
+article {
+  background-color:$base02;
+  padding:1em;
+}
+
+html {
+  background-color:$base03;
+}
+
+.wrapper {
+  margin:0 auto;
+  max-width:50em;
+}
+
+.site-header,
+.site-footer {
+  padding:1em 2em;
+}
+
+.site-nav ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.site-nav li {
+  float:left;
+  margin-left:1em;
+  &:first-of-type {
+    margin-left:0;
+  }
+}
+
+.site-nav--footer {
+  float:right;
+}

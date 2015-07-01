@@ -1,0 +1,10 @@
+.site-footer {
+  @extend .clearfix;
+  margin-top:2em;
+  color:$base03;
+  background-color:$base02;
+}
+
+.site-footer__copyright {
+  float:left;
+}

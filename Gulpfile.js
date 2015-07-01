@@ -25,6 +25,7 @@ gulp.task('sass', function () {
     .pipe(minifyCSS()) //move to prod settings
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./_site/css/'))
     .pipe(browserSync.stream());
 });
 
@@ -41,6 +42,7 @@ gulp.task('sass-ie', function () {
     .pipe(minifyCSS()) //move to prod settings
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./_site/css/'))
     .pipe(browserSync.stream());
 });
 
@@ -52,6 +54,7 @@ gulp.task('js', ['bower'], function() {
     .pipe(rename('global.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./js-build/'))
+    .pipe(gulp.dest('./_site/js-build/'))
     .pipe(browserSync.stream());
 });
 
@@ -61,7 +64,8 @@ gulp.task('bower', function() {
     .pipe(sourcemaps.init())
     .pipe(concat('vendor.js'))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./js/vendor/'));
+    .pipe(gulp.dest('./js/vendor/'))
+    .pipe(gulp.dest('./_site/js/vendor/'));
 });
 
 // run jekyll build
@@ -87,7 +91,7 @@ gulp.task('serve', ['sass', 'sass-ie', 'jekyll-build'], function() {
 
   gulp.watch('./js/**/*.js', ['js'])
   gulp.watch('./_scss/**', ['sass', 'sass-ie']);
-  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.html', '_config.yml'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['js', 'serve']);

@@ -10,8 +10,11 @@
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
   <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]>
+  <link rel='stylesheet' href='style-ie.css' type='text/css' media='all' />
+  <![endif]-->
   <link rel="canonical" href="http://timrourke.github.io/jekyll/update/2015/06/30/welcome-to-jekyll.html">
-  <link rel="alternate" type="application/rss+xml" title="Tim Rourke's General Assembly Portfolio" href="http://timrourke.github.io/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="A Code Journal" href="http://timrourke.github.io/feed.xml" />
   <script src="/js-build/global.min.js"></script>
 </head>
 
@@ -22,24 +25,33 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Tim Rourke's General Assembly Portfolio</a>
+    <pre>
+/**
+ *  <a class="site-title" href="/">A Code Journal</a>
+ *
+ *  @Author:       Tim Rourke
+ *  @Last Updated: Wed, 01 Jul 2015 16:37:14 -0500
+ *
+ */
+    </pre>
 
   </div>
 
 </header>
 
 
-    <div class="page-content">
+    <main>
       <div class="wrapper">
-        <div class="post">
+        <section class="blog">
+  <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <p class="post-meta">Jun 30, 2015</p>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title">Welcome to Jekyll!</h1>
+      <p class="post-meta">Jun 30, 2015</p>
+    </header>
 
-  <article class="post-content">
-    <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <div class="post-content">
+      <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -54,16 +66,35 @@
 <p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
 
 
-  </article>
+    </div>
 
-</div>
+  </article>
+</section>
 
       </div>
-    </div>
+    </main>
 
     <footer class="site-footer">
 
+  <div class="wrapper">
+    <div class="site-footer__copyright">
+      &copy; 2015 Tim Rourke
+    </div>
+
+    <div class="site-footer__social">
+      <nav class="site-nav site-nav--footer">
+        <ul>
+          <li><a href="https://github.com/timrourke">GitHub</a></li>
+          <li><a href="http://codepen.io/timothyrourke/">CodePen</a></li>
+          <li><a href="http://timrourke.com">timrourke.com</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
 </footer>
+
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,900' rel='stylesheet' type='text/css'>
 
 
   </body>

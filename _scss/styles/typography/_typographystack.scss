@@ -1,13 +1,8 @@
-//Futura
-//Weights: 400, 700
-
-$sans-serif:"futura-pt", sans-serif;
-
-//Chaparral Pro 
-//Weights: 400, 400 italic, 700
-
-$serif:"chaparral-pro";
+//Source Code Pro
+//Weights: 300, 400, 700
+//NO ITALICS!
+$sans-serif: "Source Code Pro", Monaco, "Courier New", Courier, monospace;
 
 html {
-	font-family:$serif, serif;
+	font-family:$sans-serif;
 }
