@@ -2,15 +2,25 @@
 
   <div class="wrapper">
 
-    <pre>
+    <pre class="site-header__comment-block">
 /**
- *  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
  *
- *  @Author:  {{ site.author }}
- *  @Updated: {{ site.time | date_to_rfc822 }}
+ *
+ *
+ *
  *
  */
     </pre>
+    <div class="site-header__meta">
+      <br>
+      <br>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a><br>
+      <br>
+      @Author:  {{ site.author }}<br>
+      @Updated: {{ site.time | date_to_rfc822 }}<br>
+      <br>
+      <br>
+    </div>
 
   </div>
 

@@ -1,0 +1,25 @@
+.site-header {
+  position:relative;
+  height:10em;
+  margin-bottom:1em;
+}
+
+.site-header__comment-block {
+  position:absolute;
+  top:0;
+  left:-1em;
+  width:2em;
+  @media all and (min-width:800px) {
+    left:2em;
+  }
+}
+
+.site-header__meta {
+  position:absolute;
+  top:0;
+  left:2em;
+  padding-right:1em;
+  @media all and (min-width:800px) {
+    left:4em;
+  }
+}
