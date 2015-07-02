@@ -5,7 +5,7 @@ title:  "General Assembly: A fresh start"
 date:   2015-07-01 09:53:21
 categories: ["General-Assembly"]
 tags:   [General Assembly,inspiration,bootcamps]
-description:  "How one hearing one podcast inspired be to take a leap of faith and start. learning. now."
+description:  "How hearing one podcast inspired me to take a leap of faith and start. learning. now."
 ---
 Well, it's happened. I finally pulled the trigger and made the leap. I've started my journey as a new student in the Web Development Immersive program at [General Assembly in Chicago][ga].
 
