@@ -1,8 +1,11 @@
 ---
 layout: post
+type:   post
 title:  "General Assembly: A fresh start"
 date:   2015-07-01 09:53:21
 categories: ["General-Assembly"]
+tags:   [General Assembly,inspiration,bootcamps]
+description:  "How one hearing one podcast inspired be to take a leap of faith and start. learning. now."
 ---
 Well, it's happened. I finally pulled the trigger and made the leap. I've started my journey as a new student in the Web Development Immersive program at [General Assembly in Chicago][ga].
 
@@ -24,7 +27,7 @@ As I begin my humble journey to something like proficiency in tools like Node.js
 
 Thank you, Aimee, for forging a path, and living to tell the tale.
 
-[ga]:          http://generalassemb.ly/Chicago
+[ga]:          http://generalassemb.ly/
 [susanna]:     http://unsaidstud.io
 [jabber]:      http://devchat.tv/js-jabber
 [aimee]:       http://aimeemarieknight.com/

@@ -6,13 +6,13 @@
 </description>
     <link>http://timrourke.github.io/</link>
     <atom:link href="http://timrourke.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 23:06:22 -0500</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 23:06:22 -0500</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2015 06:55:30 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2015 06:55:30 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>General Assembly: A fresh start</title>
-        <description>&lt;p&gt;Well, it’s happened. I finally pulled the trigger and made the leap. I’ve started my journey as a new student in the Web Development Immersive program at &lt;a href=&quot;http://generalassemb.ly/Chicago&quot;&gt;General Assembly in Chicago&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Well, it’s happened. I finally pulled the trigger and made the leap. I’ve started my journey as a new student in the Web Development Immersive program at &lt;a href=&quot;http://generalassemb.ly/&quot;&gt;General Assembly in Chicago&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Officially GA’s second WDI cohort, our class is made up of students from many walks of life, all united by the desire to jump-start a new life in web development.&lt;/p&gt;
 
@@ -36,6 +36,12 @@
         <pubDate>Wed, 01 Jul 2015 04:53:21 -0500</pubDate>
         <link>http://timrourke.github.io/general-assembly/2015/07/01/a-fresh-start.html</link>
         <guid isPermaLink="true">http://timrourke.github.io/general-assembly/2015/07/01/a-fresh-start.html</guid>
+        
+        <category>General Assembly</category>
+        
+        <category>inspiration</category>
+        
+        <category>bootcamps</category>
         
         
         <category>general-assembly</category>
