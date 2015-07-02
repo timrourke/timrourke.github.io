@@ -8,11 +8,14 @@ main {
   min-height:100%;
   height:auto !important;
   height:100%;
-  margin:0 0 -3em 0;
+  margin:0;
 }
 
 section {
-  padding:2em;
+  padding:1em;
+  @media all and (min-width: 800px) {
+    padding:2em;
+  }
 }
 
 article {
@@ -26,12 +29,17 @@ html {
 
 .wrapper {
   margin:0 auto;
-  max-width:50em;
+  max-width:46em;
 }
 
 .site-header,
 .site-footer {
   padding:1em 2em;
+  .wrapper {
+    @media all and (min-width:52em) {
+      padding:0 2em;
+    }
+  }
 }
 
 .site-nav ul {

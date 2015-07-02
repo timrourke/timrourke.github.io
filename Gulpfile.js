@@ -91,7 +91,7 @@ gulp.task('serve', ['sass', 'sass-ie', 'jekyll-build'], function() {
 
   gulp.watch('./js/**/*.js', ['js'])
   gulp.watch('./_scss/**', ['sass', 'sass-ie']);
-  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.html', '_config.yml'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.markdown', '_config.yml'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['js', 'serve']);

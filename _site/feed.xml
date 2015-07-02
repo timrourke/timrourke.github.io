@@ -6,35 +6,39 @@
 </description>
     <link>http://timrourke.github.io/</link>
     <atom:link href="http://timrourke.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 16:37:14 -0500</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 16:37:14 -0500</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2015 23:06:22 -0500</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2015 23:06:22 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>General Assembly: A fresh start</title>
+        <description>&lt;p&gt;Well, it’s happened. I finally pulled the trigger and made the leap. I’ve started my journey as a new student in the Web Development Immersive program at &lt;a href=&quot;http://generalassemb.ly/Chicago&quot;&gt;General Assembly in Chicago&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Officially GA’s second WDI cohort, our class is made up of students from many walks of life, all united by the desire to jump-start a new life in web development.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;I’ve been dragging my feet about this for ages. While I’d been chewing on the idea of attending a development bootcamp for some time, I was outright terrified of the financial commitment required, not to mention the time I’d have to spend away from my &lt;a href=&quot;http://unsaidstud.io&quot;&gt;wonderful wife&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Aside from the incredible support and encouragement my family have shown over the last few months, the final burst of inspiration came in the form of a podcast. Back in April, one of my favorite programming podcasts, &lt;a href=&quot;http://devchat.tv/js-jabber&quot;&gt;Javascript Jabber&lt;/a&gt;, hosted the remarkable &lt;a href=&quot;http://aimeemarieknight.com/&quot;&gt;Aimee Knight&lt;/a&gt; &lt;a href=&quot;http://devchat.tv/js-jabber/153-jsj-careers-for-junior-developers-with-aimee-knight&quot;&gt;in an episode&lt;/a&gt; about her educational trajectory through web development, including her experiences before, during, and after her official training.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It wasn’t the specific details of her educational experience that changed my outlook on the process. It wasn’t the tech stack she learned, the money she made, or the street cred she built. And she spoke joyfully about all three of those things. What caught me off guard was her sense of personal satisfaction to have finally taken the leap into a rewarding new career in web development.&lt;/p&gt;
+
+&lt;p&gt;Like me, Aimee started her life with a passion wholly different from her tech life. She entered her professional world as a figure skater, a practice that taught her discipline, tenacity, and self-expression. My own journey began with a deep study of classical drawing and painting. This pursuit would lead me all the way to the &lt;a href=&quot;http://florenceacademyofart.com&quot;&gt;Florence Academy of Art&lt;/a&gt;—it was a study that fed me, thrilled me, and enslaved my imagination.&lt;/p&gt;
+
+&lt;p&gt;Until one day, it didn’t. Aimee talked about that too. She described the gut-wrenching sea change involved in doing a 180 in life. And she described the surprising comfort of embracing a set of technical tools that engaged the parts of her mind that were once lit with the uphill battle I can only imagine a serious career in figure skating must be.&lt;/p&gt;
+
+&lt;p&gt;“That’s my story!”, I thought. “I know this!”&lt;/p&gt;
+
+&lt;p&gt;As I begin my humble journey to something like proficiency in tools like Node.js, Rails, and Angular, I’m going to keep Aimee in my mind as a real life example of someone who took the bull by the horns and hammered out a world she’d never seen before with guts, code, a ton of curiosity.&lt;/p&gt;
+
+&lt;p&gt;Thank you, Aimee, for forging a path, and living to tell the tale.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 30 Jun 2015 00:40:21 -0500</pubDate>
-        <link>http://timrourke.github.io/jekyll/update/2015/06/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://timrourke.github.io/jekyll/update/2015/06/30/welcome-to-jekyll.html</guid>
+        <pubDate>Wed, 01 Jul 2015 04:53:21 -0500</pubDate>
+        <link>http://timrourke.github.io/general-assembly/2015/07/01/a-fresh-start.html</link>
+        <guid isPermaLink="true">http://timrourke.github.io/general-assembly/2015/07/01/a-fresh-start.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>general-assembly</category>
         
       </item>
     
