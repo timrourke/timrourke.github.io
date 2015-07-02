@@ -1,3 +1,25 @@
 .post-meta {
   color:$violet;
 }
+
+.post-list {
+  list-style-type:none;
+}
+
+.post-list__item {
+  position:relative;
+}
+
+.post-list__item-meta {
+  margin-bottom:1em;
+}
+
+.post-list__more-link {
+  position:absolute;
+  bottom:0;
+  right:1em;
+}
+
+.post-list__more-link a {
+  color:$cyan;
+}

@@ -2,13 +2,14 @@
 title: A Code Journal
 author: Tim Rourke
 email: tim@timrourke.com
-description: > # this means to ignore newlines until "baseurl:"
-  On June 29th, 2015, I embarked on a new adventure. I've joined the 2nd-ever
-  Chicago cohort of General Assembly's Web Development Intensive program.
+description: On June 29th, 2015, I embarked on a new adventure. I've joined the 2nd-ever Chicago cohort of General Assembly's Web Development Intensive program.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://timrourke.github.io" # the base hostname & protocol for your site
+locale: "en_US"
+avatar: https://avatars0.githubusercontent.com/u/8141770?v=3&s=460
 twitter_username: RourkeTim
 github_username: timrourke
-
+fb_admins: http://facebook.com/timothy.rourke
+fb_appid: 531109597036892
 # Build settings
 markdown: kramdown
