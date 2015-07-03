@@ -6,7 +6,7 @@
 
 .site-header__comment-block {
   position:absolute;
-  top:0;
+  top:1.2em;
   left:-1em;
   width:2em;
   @media all and (min-width:800px) {
@@ -16,7 +16,7 @@
 
 .site-header__meta {
   position:absolute;
-  top:0;
+  top:0em;
   left:2em;
   padding-right:1em;
   @media all and (min-width:800px) {
