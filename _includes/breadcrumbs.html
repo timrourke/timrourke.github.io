@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb">
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+    {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+    {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+    {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:2 }}{% endcapture %}
+    {% for i in (1..forLoopMaxInt) %}
+        {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+        {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+        {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+        {% for breadcrumb_page in site.pages %}
+            {% if current_breadcrumb_url == breadcrumb_page.path or current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
+                <li {% if i == forLoopMaxInt %} class="breadcrumb breadcrumb--active" {% else %} class="breadcrumb breadcrumb--{{i}}" {% endif %}>
+                    {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+                    {% if i != forLoopMaxInt %} <span class="breadcrumb--sep">//</span> {% endif %}
+                    <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{% if breadcrumb_page.month %}{{ breadcrumb_page.month }}{% else %}{{breadcrumb_page.title}}{% endif %}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    <li class="breadcrumb breadcrumb--active"><span class="breadcrumb--sep">//</span> <a href="{{page.url}}">{% if page.month %}{{ page.month }}{% else %}{{page.title}}{% endif %}</a></li>
+    <div class="breadcrumbs__border">------------------------------------------------------------------------------------------------------------------------------------</div>
+  </ul>
+</div>

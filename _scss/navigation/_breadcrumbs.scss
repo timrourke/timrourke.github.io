@@ -1,0 +1,33 @@
+.breadcrumbs {
+  @extend .clearfix;
+  display:inline-block;
+  position:relative;
+  list-style-type:none;
+  padding:0 0 2em 1em;
+  height:3em;
+  margin:0 1em 2em 0;
+  overflow:hidden;
+}
+
+.breadcrumbs__border {
+  position:absolute;
+  overflow:hidden;
+  bottom:0.8em;
+  left:1em;
+  height:1.2em;
+  padding-right:1em;
+  width:100%;
+}
+
+.breadcrumbs li {
+  float:left;
+  padding-right:0.5em;
+}
+
+.breadcrumb a {
+  color:$base0;
+}
+
+.breadcrumb.breadcrumb--active a {
+  color:$cyan !important;
+}

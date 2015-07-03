@@ -28,6 +28,7 @@ html {
 }
 
 .wrapper {
+  @extend .clearfix;
   position:relative;
   margin:0 auto;
   max-width:46em;
