@@ -77,6 +77,7 @@ gulp.task('jekyll-build', function(gulpCallBack) {
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code ' + code);
   });
+  gulp.run('html');
 });
 
 gulp.task('archive-gen', ['jekyll-build'], function(gulpCallBack) {
@@ -91,6 +92,14 @@ gulp.task('archive-gen', ['jekyll-build'], function(gulpCallBack) {
 
 gulp.task('jekyll-rebuild', ['jekyll-build', 'archive-gen', 'jekyll-build'], function() {
   browserSync.reload();
+  browserSync.notify('Minifying HTML');
+});
+
+// html min
+gulp.task("html", ['jekyll-rebuild'], function() {
+  gulp.src("./_site/**/*.html")
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest("./_site/./"))
 });
 
 // watch tasks and serve via browserSync
@@ -101,7 +110,7 @@ gulp.task('serve', ['sass', 'sass-ie', 'jekyll-build'], function() {
 
   gulp.watch('./js/**/*.js', ['js'])
   gulp.watch('./_scss/**', ['sass', 'sass-ie']);
-  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.markdown', '_config.yml'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.markdown', '_config.yml'], ['html']);
 });
 
-gulp.task('default', ['js', 'jekyll-rebuild', 'serve']);
+gulp.task('default', ['js', 'html', 'serve']);

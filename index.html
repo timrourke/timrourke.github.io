@@ -14,7 +14,7 @@ layout: default
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <span class="post-meta"><span class="post-meta__date"><a href="{{ post.date | date: "%Y/%m" }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
+            <span class="post-meta"><span class="post-meta__date"><a href="{{ post.date | date: "%Y/%m" }}">{{ post.date | date: "%b %-d, %Y" }}</a> // <a href="{% if post.author %}{{ post.author-link }}{% else %}/about{% endif %}">{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</a></span>
             {% if post.categories %} //
               <span class="post-meta__category">
                 <a href="{% for category in post.categories %}{{ category | downcase | replace: ' ', '-' | prepend: '/tags/'  }}{% endfor %}">

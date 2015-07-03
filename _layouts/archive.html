@@ -11,13 +11,13 @@ layout: default
         <h1>Archive: {{ page.title }}</h1>
     {% endif %}
     {% if page.tag and content != '' %}
-    <article title="{{ page.title }}">
+    <div title="{{ page.title }}">
         <div class="content">
             {{ content }}
 
-            <h2>Blogposts about {{ page.title }}:</h2>
+            <p>Blogposts about {{ page.title }}:</p>
         </div>
-    </article>
+    </div>
     {% endif %}
     {% unless page.title == 'Archive' %}
         <ul>
