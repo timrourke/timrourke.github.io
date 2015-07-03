@@ -15,13 +15,14 @@ fb_appid: 531109597036892
 
 # Build settings
 markdown: kramdown
-safe: true
+safe: false
 lsi: false
 source: "."
 exclude: [node_modules, README.md]
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 jekyll-redirect-from:
 
