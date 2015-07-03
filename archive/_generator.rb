@@ -1,4 +1,4 @@
-MONTH_NAMES = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "Oktober", "November", "December"]
+MONTH_NAMES = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 def write_template_file(path, permalink, title, options={})
     unless File.exists?(path)

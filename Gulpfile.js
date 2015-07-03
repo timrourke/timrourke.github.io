@@ -79,7 +79,17 @@ gulp.task('jekyll-build', function(gulpCallBack) {
   });
 });
 
-gulp.task('jekyll-rebuild', ['jekyll-build'], function() {
+gulp.task('archive-gen', ['jekyll-build'], function(gulpCallBack) {
+  browserSync.notify('Generating Archives');
+  var spawn = require('child_process').spawn;
+  var archive = spawn('ruby', ['archive/_generator.rb'], {stdio: 'inherit'});
+
+  archive.on('exit', function(generatorCode) {
+      gulpCallBack(generatorCode === 0 ? null : 'ERROR: Archive generator process exited with code ' + code);
+  });
+});
+
+gulp.task('jekyll-rebuild', ['jekyll-build', 'archive-gen', 'jekyll-build'], function() {
   browserSync.reload();
 });
 
@@ -94,4 +104,4 @@ gulp.task('serve', ['sass', 'sass-ie', 'jekyll-build'], function() {
   gulp.watch(['index.html', '_includes/**/*.html', '_layouts/**/*.html', '_posts/**/*.markdown', '_config.yml'], ['jekyll-rebuild']);
 });
 
-gulp.task('default', ['js', 'serve']);
+gulp.task('default', ['js', 'jekyll-rebuild', 'serve']);

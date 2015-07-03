@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello, world. I'm [Tim Rourke](http://timrourke.com).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+On June 29th, 2015, I embarked on a new adventure. I've joined the 2nd-ever Chicago cohort of [General Assembly's](http://generalassemb.ly) Web Development Intensive program.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+This simple blog serves to document my educational experience wading headfirst into this new-fangled world of intensive vocational training and the quicksand that is web development. I hope to share my successes, failures, and insights with those on a similar path.
