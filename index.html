@@ -14,7 +14,20 @@ layout: default
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <span class="post-meta"><span class="post-meta__date">{{ post.date | date: "%b %-d, %Y" }}</span>{% if post.categories %} // <span class="post-meta__categories">{{ post.categories }}</span>{% endif %}</span>
+            <span class="post-meta"><span class="post-meta__date"><a href="{{ post.date | date: "%Y/%m" }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
+            {% if post.categories %} //
+              <span class="post-meta__category">
+                <a href="{% for category in post.categories %}{{ category | downcase | replace: ' ', '-' | prepend: '/tags/'  }}{% endfor %}">
+
+                {% for category in post.categories %}
+                  {% assign words = category | split: ' ' %}
+                  {% for word in words %}
+                    {{ word | capitalize | replace: 'The','the' }}
+                  {% endfor %}
+                {% endfor %}
+              </a></span>
+            {% endif %}
+            </span>
           </header>
 
           {% if post.description %}<p class="post-description">{{ post.description }}</p>{% endif %}

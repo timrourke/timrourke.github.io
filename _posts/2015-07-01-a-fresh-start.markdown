@@ -3,7 +3,8 @@ layout: post
 type:   post
 title:  "General Assembly: A fresh start"
 date:   2015-07-01 09:53:21
-categories: ["General-Assembly"]
+categories:
+  - General Assembly
 tags:   [General Assembly,inspiration,bootcamps]
 description:  "How hearing one podcast inspired me to take a leap of faith and start. learning. now."
 ---

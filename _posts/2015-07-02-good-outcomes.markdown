@@ -3,7 +3,8 @@ layout: post
 type:   post
 title:  "Good outcomes"
 date:   2015-07-02 11:24:47
-categories: ["General-Assembly"]
+categories:
+  - General Assembly
 tags:   [General Assembly,hiring,outcomes]
 description:  "At a recent meet-and-hire event, GA students from the previous cohort saw real interest from Chicago tech hiring managers."
 ---
