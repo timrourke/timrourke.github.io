@@ -83,7 +83,7 @@ pre {
   @include typl8-white-space(pre);
   code {
     @extend %typl8-normal-wrap;
-    @include typl8-white-space(pre-wrap);
+    @include typl8-white-space(pre);
     color:$base00;
     padding:0;
   }
@@ -97,7 +97,6 @@ pre.codeblock {
 code {
   //@include typl8-white-space(pre);
   font-family: $sans-serif;
-  font-size:u(1rem);
   line-height:1.2;
   padding:0.1em;
   background-color:transparent;

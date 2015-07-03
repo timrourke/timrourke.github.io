@@ -3,4 +3,6 @@ inspiration
 bootcamps
 hiring
 outcomes
+Jekyll
+gulp
 
