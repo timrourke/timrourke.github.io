@@ -1,12 +1,16 @@
 .breadcrumbs {
   @extend .clearfix;
   display:inline-block;
-  position:relative;
+  position:absolute;
+  top:10em;
+  left:-2em;
   list-style-type:none;
   padding:0 0 2em 1em;
-  height:3em;
-  margin:0 1em 2em 0;
   overflow:hidden;
+  z-index:1000;
+  @media all and (min-width: 800px) {
+    left:1em;
+  }
 }
 
 .breadcrumbs__border {
@@ -21,11 +25,17 @@
 
 .breadcrumbs li {
   float:left;
-  padding-right:0.5em;
+  display:inline-block;
+  margin:0;
+  padding:0;
 }
 
 .breadcrumb a {
-  color:$base0;
+  color:$base1;
+}
+
+.breadcrumb--sep {
+  color:$base01;
 }
 
 .breadcrumb.breadcrumb--active a {

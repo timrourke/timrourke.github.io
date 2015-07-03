@@ -1,5 +1,6 @@
 <div class="wrapper">
   <ul class="breadcrumbs">
+    <li>Path: </li>
     <li class="breadcrumb">
       <a href="{{ site.baseurl }}/">Home</a>
     </li>
@@ -14,13 +15,12 @@
             {% if current_breadcrumb_url == breadcrumb_page.path or current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
                 <li {% if i == forLoopMaxInt %} class="breadcrumb breadcrumb--active" {% else %} class="breadcrumb breadcrumb--{{i}}" {% endif %}>
                     {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-                    {% if i != forLoopMaxInt %} <span class="breadcrumb--sep">//</span> {% endif %}
-                    <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{% if breadcrumb_page.month %}{{ breadcrumb_page.month }}{% else %}{{breadcrumb_page.title}}{% endif %}</a>
+                    {% if i != forLoopMaxInt %}<span class="breadcrumb--sep">/</span>{% endif %}<a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{% if breadcrumb_page.month %}{{ breadcrumb_page.month }}{% else %}{{breadcrumb_page.title}}{% endif %}</a>
                 </li>
             {% endif %}
         {% endfor %}
     {% endfor %}
-    <li class="breadcrumb breadcrumb--active"><span class="breadcrumb--sep">//</span> <a href="{{page.url}}">{% if page.month %}{{ page.month }}{% else %}{{page.title}}{% endif %}</a></li>
+    <li class="breadcrumb breadcrumb--active"><span class="breadcrumb--sep">/</span><a href="{{page.url}}">{% if page.month %}{{ page.month }}{% else %}{{page.title}}{% endif %}</a></li>
     <div class="breadcrumbs__border">------------------------------------------------------------------------------------------------------------------------------------</div>
   </ul>
 </div>
