@@ -299,8 +299,9 @@ Using Liquid to iterate over looks something like this:
 {% highlight liquid %}
 {{ "{% assign file = site.data.images[include.image] " }}%}
 {{ "{% assign alt = include.alt " }}%}
+{{ "{% assign sizes = include.sizes " }}%}
 {{ "{% assign fallback = file[0] | split: ' ' " }}%}
-<img src="/images-build/{{ "{{ fallback[0] " }}}}" srcset="{{ "{% for srcItem in file " }}%}/images-build/{{ "{{ srcItem " }}}}{{ "{% if forloop.last == false " }}%}, {{ "{% endif " }}%}{{ "{% endfor " }}%}" alt="{{ "{{ alt " }}}}" />
+<img src="/images-build/{{ "{{ fallback[0] " }}}}" srcset="{{ "{% for srcItem in file " }}%}/images-build/{{ "{{ srcItem " }}}}{{ "{% if forloop.last == false " }}%}, {{ "{% endif " }}%}{{ "{% endfor " }}%}" alt="{{ "{{ alt " }}}}" "{{ sizes " }}}}" />
 {% endhighlight %}
 
 ## Including our partial
@@ -308,7 +309,7 @@ Using Liquid to iterate over looks something like this:
 Actually implementing the markup looks something like this:
 
 {% highlight liquid %}
-{{ "{% include responsive_image.html image='test' alt='Houston, we have liftoff!' " }}%}
+{{ "{% include responsive_image.html image='test' alt='Houston, we have liftoff!' sizes='100vw' " }}%}
 {% endhighlight %}
 
 ## Final output
@@ -316,9 +317,9 @@ Actually implementing the markup looks something like this:
 If everything in my fragile system continues to work correctly, we should generate the following HTML markup in the end:
 
 {% highlight html %}
-<img src="/images-build/test/test-original.jpg" srcset="/images-build/test/test-original.jpg 4586w, /images-build/test/test-2400.jpg 2400w, /images-build/test/test-1890.jpg 1890w, /images-build/test/test-1600.jpg 1600w, /images-build/test/test-1280.jpg 1280w, /images-build/test/test-1024.jpg 1024w, /images-build/test/test-800.jpg 800w, /images-build/test/test-640.jpg 640w, /images-build/test/test-480.jpg 480w, /images-build/test/test-320.jpg 320w" alt="Houston, we have liftoff!">
+<img src="/images-build/test/test-original.jpg" srcset="/images-build/test/test-original.jpg 4586w, /images-build/test/test-2400.jpg 2400w, /images-build/test/test-1890.jpg 1890w, /images-build/test/test-1600.jpg 1600w, /images-build/test/test-1280.jpg 1280w, /images-build/test/test-1024.jpg 1024w, /images-build/test/test-800.jpg 800w, /images-build/test/test-640.jpg 640w, /images-build/test/test-480.jpg 480w, /images-build/test/test-320.jpg 320w" alt="Houston, we have liftoff!" sizes="100vw">
 {% endhighlight %}
 
 There you have it! Not quite simple, almost clean, somewhat-easier-than-before automated responsive images in Jekyll. Whee!
 
-{% include responsive_image.html image="test" alt="Houston, we have liftoff!" %}
+{% include responsive_image.html image="test" alt="Houston, we have liftoff!" sizes="100vw" %}

@@ -45,5 +45,37 @@
 }
 
 .site-nav--footer {
-  float:right;
+  @extend .clearfix;
+  clear:both;
+  padding-top:1em;
+  text-align:center;
+  @media all and (min-width:600px) {
+    float:right;
+    clear:none;
+    padding-top:0;
+  }
+
+}
+
+.site-nav--footer li {
+  clear:both;
+  float:none;
+  width:100%;
+  margin-left:0;
+  margin-bottom:0.5em;
+  a {
+    text-align:center;
+  }
+  @media all and (min-width: 600px) {
+    clear:none;
+    float:left;
+    margin-left:1em;
+    width:inherit;
+    &:first-of-type {
+      margin-left:0;
+    }
+    a {
+      text-align:right;
+    }
+  }
 }
