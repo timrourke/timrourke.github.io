@@ -1,0 +1,4 @@
+{% assign file = site.data.images[include.image] %}
+{% assign alt = include.alt %}
+{% assign fallback = file[0] | split: ' ' %}
+<img src="/images-build/{{ fallback[0] }}" srcset="{% for srcItem in file %}/images-build/{{ srcItem }}{% if forloop.last == false %}, {% endif %}{% endfor %}" alt="{{ alt }}" />

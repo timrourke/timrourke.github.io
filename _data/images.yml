@@ -1,0 +1,11 @@
+test:
+ - "test/test-original.jpg 4586w"
+ - "test/test-2400.jpg 2400w"
+ - "test/test-1890.jpg 1890w"
+ - "test/test-1600.jpg 1600w"
+ - "test/test-1280.jpg 1280w"
+ - "test/test-1024.jpg 1024w"
+ - "test/test-800.jpg 800w"
+ - "test/test-640.jpg 640w"
+ - "test/test-480.jpg 480w"
+ - "test/test-320.jpg 320w"
