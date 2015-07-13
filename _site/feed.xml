@@ -5,9 +5,36 @@
     <description>On June 29th, 2015, I embarked on a new adventure. I&#39;ve joined the 2nd-ever Chicago cohort of General Assembly&#39;s Web Development Intensive program.</description>
     <link>http://timrourke.github.io/</link>
     <atom:link href="http://timrourke.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jul 2015 10:51:48 -0500</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2015 10:51:48 -0500</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2015 00:28:26 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2015 00:28:26 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>To long for the sea</title>
+        <description>&lt;p&gt;It’s past midnight on Sunday and I am tired but happy to have been working all day. Perhaps next week I will not neglect my authorly duties, but in the mean time, here is an appropriate quote for today:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&quot;If you want to build a ship, don’t drum up people together to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.&quot;&lt;/p&gt;&lt;br /&gt;
+
+&lt;cite&gt;— Antoine de Saint-Exupéry&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Oh, how I long for those waves.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 19:16:12 -0500</pubDate>
+        <link>http://timrourke.github.io/2015/07/2-weeks-down</link>
+        <guid isPermaLink="true">http://timrourke.github.io/2015/07/2-weeks-down</guid>
+        
+        <category>work</category>
+        
+        <category>quotes</category>
+        
+        <category>musings</category>
+        
+        
+        <category>general assembly</category>
+        
+      </item>
     
       <item>
         <title>Responsive Images in Jekyll</title>

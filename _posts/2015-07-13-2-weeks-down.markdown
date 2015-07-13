@@ -1,0 +1,20 @@
+---
+layout: post
+type:   post
+title:  "To long for the sea"
+date:   2015-07-13 00:16:12
+categories:
+  - General Assembly
+tags:   ['work','quotes','musings']
+description:  "2 weeks down, the rest of my life to go."
+---
+
+It's past midnight on Sunday and I am tired but happy to have been working all day. Perhaps next week I will not neglect my authorly duties, but in the mean time, here is an appropriate quote for today:
+
+<blockquote>
+<p>"If you want to build a ship, don’t drum up people together to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea."</p><br>
+
+<cite>— Antoine de Saint-Exupéry</cite>
+</blockquote>
+
+Oh, how I long for those waves.

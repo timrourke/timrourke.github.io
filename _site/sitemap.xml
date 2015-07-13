@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://timrourke.github.io/2015/07/2-weeks-down</loc>
+    <lastmod>2015-07-12T19:16:12-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://timrourke.github.io/2015/07/responsive-images-in-jekyll</loc>
     <lastmod>2015-07-05T15:32:46-05:00</lastmod>
   </url>
@@ -53,10 +57,19 @@
     <loc>http://timrourke.github.io/tags/jekyll/</loc>
   </url>
   <url>
+    <loc>http://timrourke.github.io/tags/musings/</loc>
+  </url>
+  <url>
     <loc>http://timrourke.github.io/tags/outcomes/</loc>
   </url>
   <url>
+    <loc>http://timrourke.github.io/tags/quotes/</loc>
+  </url>
+  <url>
     <loc>http://timrourke.github.io/tags/responsive-images/</loc>
+  </url>
+  <url>
+    <loc>http://timrourke.github.io/tags/work/</loc>
   </url>
   <url>
     <loc>http://timrourke.github.io/bower_components/picturefill/index.html</loc>

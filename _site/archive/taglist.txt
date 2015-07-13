@@ -6,4 +6,7 @@ outcomes
 Jekyll
 gulp
 responsive images
+work
+quotes
+musings
 
